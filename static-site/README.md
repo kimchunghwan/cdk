@@ -8,9 +8,9 @@
 $ npm install -g aws-cdk
 $ npm install
 $ npm run build
-$ cdk deploy -c accountId=123456789 -c domain=mystaticsite.com -c subdomain=test -c certificateArn=xxxxxxxxxxx  *1
+# 아래와 같이 -c 입력 혹은 `cdk.context.json`에 필요한 params를 정의할 것
+$ cdk deploy -c accountId=123456789 -c domain=mystaticsite.com -c subdomain=test -c certificateArn=xxxxxxxxxxx
 ```
-`*1` 혹은 `cdk.context.json`에 필요한 params를 정의할 것
 
 
 # comment
